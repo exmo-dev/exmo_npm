@@ -1,0 +1,41 @@
+{
+  "name": "exmo-api",
+  "description": "Exmo (Bitcoin Exchange) API client",
+  "version": "0.1.0",
+  "homepage": "https://github.com/exmo-dev/exmo_npm",
+  "author": {
+    "name": "exmo-dev",
+    "email": "admin@exmo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/exmo-dev/exmo_npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/exmo-dev/exmo_npm/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/exmo-dev/exmo_npm/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/exmo-api",
+  "dependencies": {
+    "request": "~2.67.0",
+    "crypto-js": "~3.1.5"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
